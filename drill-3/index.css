@@ -1,0 +1,150 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #0b0808;
+    color: #FFF;
+    height: 100%;
+}
+article {
+    padding: 50px;
+}
+header {
+    padding: 25px;
+}
+.square {
+    width: 150px;
+    color: #FFFFFF;
+}
+.letter {
+    fill: #FFFFFF;
+}
+.Container {
+    height: 100%;
+}
+.stripe {
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.section-inner {
+    position: relative;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+.inner-text{
+    padding-bottom: 200px;
+    padding-left: 50px;
+    text-align: left;
+    width: 300px;
+}
+.inner-text h1{
+    font-size: 48px;
+}
+.stripe-1 {
+    display: block;
+    width: 100%;
+    background-image: url("https://www.spacex.com/static/images/backgrounds-2022/sl4-26/pre-launch/Homepage_Desktop.webp") 
+}
+.stripe-2 {
+    display: block;
+    width: 100%;
+    background-image: url("https://www.spacex.com/static/images/backgrounds-2022/kplo/post-launch/Homepage_Desktop.webp") 
+}
+.stripe-3 {
+    display: block;
+    width: 100%;
+    background-image: url("https://www.spacex.com/static/images/backgrounds-2022/starship-update/S20_Chopstick_Stack_Desktop.webp") 
+}
+.stripe-4 {
+    display: block;
+    width: 100%;
+    background-image: url("https://www.spacex.com/static/images/backgrounds-2021/hls-resized-2.webp") 
+}
+.question-container {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.question-container button {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.nav a {
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.nav ul {
+    display: flex;
+}
+.nav li {
+    position: relative;
+    display: inline-block;
+    margin: 0 12px;
+}
+.divFlex {
+    display: flex;
+    align-items: center;
+}
+.background {
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+button {
+    padding: 20px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+main {
+    margin: 0 auto;
+    height: 100%;
+}
+#footer {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    height: 50px;
+    bottom: 20px;
+}
+#footer span {
+    font-size: 12px;
+    margin: 0 20px;
+}
+#footer a {
+    display: inline-block;
+    margin: 0 20px;
+    color: #FFFFFF;
+}
